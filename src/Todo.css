@@ -28,7 +28,7 @@
     margin-top: 40px;
     padding: 10px 0px;
     margin-bottom: 50px;
-    background: rgb(26, 106, 12);   
+    background: rgb(79, 59, 171);   
 }
 #todo .todo input{
     padding: 0px 20px;
@@ -39,14 +39,24 @@
     outline: 0;
 }
 #todo .todo button{
-    padding: 0px 10px;
+    padding: 0px 12px;
     border-radius: 50%;
-    background: none;
+    border: none;
+    background: rgb(79, 59, 171);
     transition: all linear 0.3s;
 }
 #todo .todo button:hover{
   background: rgb(12, 110, 21);
 }
-#todo .todo button span{
-    font-size: 10px;
+#todo .todo button h2{
+    font-size: 30px;
+    color: white;
+}
+ol li{
+  list-style: none;
+  text-transform: capitalize;
+  padding-left: -20px;
+  float: left;
+  padding-left: 18px;
+  padding-top: 16px;
 }
